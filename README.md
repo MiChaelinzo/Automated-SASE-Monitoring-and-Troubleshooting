@@ -1,7 +1,7 @@
 # Automated-SASE-Monitoring-and-Troubleshooting
 This project uses Cisco Secure APIs to automate the monitoring and troubleshooting of Secure Access Service Edge (SASE) deployments. It retrieves real-time network performance and security data, and uses this data to provide customers with visibility into their network, create custom dashboards and alerts and troubleshoot issues. It also enables to take actions to resolve issues, such as adjusting firewall rules or VPN configurations, to ensure optimal network performance and security. The goal of this project is to simplify and automate the management of SASE deployments, making it easier for customers to ensure the security and performance of their network, without the need for extensive IT resources.
 
-## Security Advisory code is written in Python and makes API calls to retrieve security advisories data from the Cisco Secure API.
+#### Security Advisory code is written in Python and makes API calls to retrieve security advisories data from the Cisco Secure API.
 
 The code defines several functions:
 

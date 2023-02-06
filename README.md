@@ -10,5 +10,13 @@ The code defines several functions:
 - process_data: This function processes the API response data received as a parameter and returns a dictionary containing only the advisories that were published in the last 7 days and their CVSS score and published date.
 - The main body of the code calls the retrieve_data function to get the API response data, checks if the call was successful, and if so, processes the data using the process_data function and writes it to a file using the write_to_file function.
 
+#### Performance SASE code is a simple script that retrieves network performance data from a Cisco API endpoint and analyzes the data for potential issues. 
+
+The script makes an HTTP GET request to the API endpoint using the requests library, passing along an api-key and access-token in the request headers. If the response status code is not 200 (i.e. success), the script raises an exception with an error message.
+
+The response data, in JSON format, is loaded into a Python dictionary using the json.loads method. The script then checks the value of the network_latency key in the dictionary against a threshold value of 100 milliseconds. If the network_latency is greater than the threshold, the script outputs a message indicating a network latency issue and takes an action to resolve the issue (which is currently a placeholder in the form of a TODO comment).
+
+
+
 
 

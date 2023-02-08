@@ -18,7 +18,12 @@ The script makes an HTTP GET request to the API endpoint using the requests libr
 
 The response data, in JSON format, is loaded into a Python dictionary using the json.loads method. The script then checks the value of the network_latency key in the dictionary against a threshold value of 100 milliseconds. If the network_latency is greater than the threshold, the script outputs a message indicating a network latency issue and takes an action to resolve the issue (which is currently a placeholder in the form of a TODO comment).
 
+#### How to use:
 
+- 1.) Git clone this repository
+- 2.) Add your api and access_code inside the code of Performance SASE.py and Security Advisory.py
+- 3.) Run the application with Python: python3 SASE.py or python3 Security Advisory.py
+- 4.) Enjoy using the application! 
 
 
 

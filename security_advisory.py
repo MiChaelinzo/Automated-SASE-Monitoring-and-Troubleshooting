@@ -90,8 +90,8 @@ message = "Subject: Processing Complete\n\nThe data has been processed and writt
 try:
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
-server.login(sender_email, password)
-server.sendmail(sender_email, receiver_email, message)
+server.login("sender_email", "password")
+server.sendmail("sender_email", "receiver_email", message)
 print("Email sent successfully")
 except Exception as e:
 print("Error sending email: " + str(e))

@@ -21,7 +21,7 @@ The response data, in JSON format, is loaded into a Python dictionary using the 
 #### How to use:
 
 - 1.) Git clone this repository
-- 2.) Add your api and access_code inside the code of Performance SASE.py and Security Advisory.py
+- 2.) Add your api_key and access_toke inside the code of Performance SASE.py and Security Advisory.py
 - 3.) Run the application with Python: python3 SASE.py or python3 Security Advisory.py
 - 4.) Enjoy using the application! 
 

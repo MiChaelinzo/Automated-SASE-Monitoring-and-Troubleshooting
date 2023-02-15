@@ -20,11 +20,11 @@ The response data, in JSON format, is loaded into a Python dictionary using the 
 
 #### How to use:
 
-- 1.) Git clone the repository https://github.com/MiChaelinzo/Automated-SASE-Monitoring-and-Troubleshooting.git
-- 2.) cd Automated-SASE-Monitoring-and-Troubleshooting
-- 3.) python3 -m pip install -r requirements.txt
-- 4.) Add your api_key and access_token inside the code of performance_sase.py and security_advisory.py
-- 5.) Run the application with Python: python3 performance_sase.py or python3 security_advisory.py
+- 1.) `Git clone` the repository `https://github.com/MiChaelinzo/Automated-SASE-Monitoring-and-Troubleshooting.git`
+- 2.) `cd Automated-SASE-Monitoring-and-Troubleshooting`
+- 3.) `python3 -m pip install -r requirements.txt`
+- 4.) Add your `api_key` and `access_token` inside the code of `performance_sase.py` and `security_advisory.py`
+- 5.) Run the application with Python: `python3 performance_sase.py` or `python3 security_advisory.py`
 - 6.) Enjoy using the Automated-SASE-Monitoring-and-Troubleshooting! 
 
 
